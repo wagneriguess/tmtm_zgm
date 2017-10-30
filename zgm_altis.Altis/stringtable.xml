@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="SXP">
 	<Package name="Zeus Game Master">
+		<Container name="BriefingName">
+			<Key id="STR_BRIEFINGNAME_ALTIS">
+				<Original>Zeus 150+2 - XP Master Altis v1</Original>
+			</Key>
+		</Container>
+		<Container name="OverviewText">
+			<Key id="STR_OVERVIEWTEXT_ALTIS">
+				<Original>ZGM 150+2 - XP Master Altis v1</Original>
+			</Key>
+		</Container>
+		<Container name="OnLoadName">
+			<Key id="STR_ONLOADNAME_ALTIS">
+				<Original>ZGM 150+2 - XP Master Altis v1</Original>
+			</Key>
+		</Container>
+		<Container name="OnLoadMission">
+			<Key id="STR_ONLOADMISSION_ALTIS">
+				<Original>ZGM 150+2 - XP Master Altis v1</Original>
+			</Key>
+		</Container>
 		<Container name="Unit Descriptions">
 			<Key ID="str_unit_commander">
 				<Original>Commander@Command</Original>
@@ -8,16 +28,16 @@
 			<Key ID="str_unit_command_medic">
 				<Original>Command Medic@Command</Original>
 			</Key>
-			<Key ID="str_unit_alpha_sl">
+			<Key ID="str_unit_sl_alpha">
 				<Original>Squad Leader@Alpha</Original>
 			</Key>
-			<Key ID="str_unit_bravo_sl">
+			<Key ID="str_unit_sl_bravo">
 				<Original>Squad Leader@Bravo</Original>
 			</Key>
-			<Key ID="str_unit_charlie_sl">
+			<Key ID="str_unit_sl_charlie">
 				<Original>Squad Leader@Charlie</Original>
 			</Key>
-			<Key ID="str_unit_delta_sl">
+			<Key ID="str_unit_sl_delta">
 				<Original>Squad Leader@Delta</Original>
 			</Key>
 			<Key ID="str_unit_cls">
@@ -40,6 +60,24 @@
 			</Key>
 			<Key ID="str_unit_ammo">
 				<Original>Ammo Bearer</Original>
+			</Key>
+			<Key ID="str_unit_sniper_echo">
+				<Original>Sniper@Echo</Original>
+			</Key>
+			<Key ID="str_unit_spotter">
+				<Original>Spotter</Original>
+			</Key>
+			<Key ID="str_unit_crew_cmd_v1">
+				<Original>Commander@Vehicle 1</Original>
+			</Key>
+			<Key ID="str_unit_crew_cmd_v2">
+				<Original>Commander@Vehicle 2</Original>
+			</Key>
+			<Key ID="str_unit_crew_gun">
+				<Original>Gunner</Original>
+			</Key>
+			<Key ID="str_unit_crew_driver">
+				<Original>Driver</Original>
 			</Key>
 		</Container>
 		<Container name="Groups">

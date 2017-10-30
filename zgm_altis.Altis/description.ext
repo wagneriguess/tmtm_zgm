@@ -1,18 +1,59 @@
+//-------------------- Mission Defines
+// Uncomment only one of the map defines. These change various aspects of the mission, and will break if more than one is defined
+#define ZGM_MAP_ALTIS 1
+//#define ZGM_MAP_BUKOVINA 1
+//#define ZGM_MAP_BYSTRICA 1
+//#define ZGM_MAP_CHERNARUS 1
+//#define ZGM_MAP_CHERNARUS_SUMMER 1
+//#define ZGM_MAP_CHERNARUS_WINTER 1
+//#define ZGM_MAP_DESERT 1
+//#define ZGM_MAP_GORGONA 1
+//#define ZGM_MAP_KHOLM 1
+//#define ZGM_MAP_MALDEN_2035 1
+//#define ZGM_MAP_PORTO 1
+//#define ZGM_MAP_PREI_KHMAOCH_LUONG 1
+//#define ZGM_MAP_PROVING_GROUNDS 1
+//#define ZGM_MAP_RAHMADI 1
+//#define ZGM_MAP_SAHRANI 1
+//#define ZGM_MAP_SAHRANI_SOUTH 1
+//#define ZGM_MAP_SAHRANI_UNITED 1
+//#define ZGM_MAP_SHAPUR 1
+//#define ZGM_MAP_STRATIS 1
+//#define ZGM_MAP_SUGAR_LAKE 1
+//#define ZGM_MAP_TAKISTAN 1
+//#define ZGM_MAP_TAKISTAN_MOUNTAINS 1
+//#define ZGM_MAP_TANOA 1
+//#define ZGM_MAP_UTES 1
+//#define ZGM_MAP_VIRTUAL_REALITY 1
+//#define ZGM_MAP_ZARGABAD 1
+
+
+
+//-------------------- Map Specific Mission Information
+#ifdef ZGM_MAP_ALTIS
+	briefingName = $STR_BRIEFINGNAME_ALTIS;
+	overviewText = $STR_OVERVIEWTEXT_ALTIS;
+	onLoadName = $STR_ONLOADNAME_ALTIS;
+	onLoadMission = $STR_ONLOADMISSION_ALTIS;
+#endif
+
+
 //-------------------- Mission Information
 
-author = "";					// Author name visible on loading screen
-briefingName = "";				// Name visible in mission select screen
-overviewText = "";				// Description visible in mission select screen
+author = "Superxpdude";					// Author name visible on loading screen
+// The following sections are all defined in the map-specific sections
+//briefingName = "";				// Name visible in mission select screen
+//overviewText = "";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
-onLoadName = "";				// Name visible on loading screen
-onLoadMission = "";				// Description visible on loading screen
+//onLoadName = "";				// Name visible on loading screen
+//onLoadMission = "";				// Description visible on loading screen
 //loadScreen = "media\loadscreen.paa"; // Image visible on loading screen
 
 class Header
 {
-	gameType = COOP;			// https://community.bistudio.com/wiki/Multiplayer_Game_Types
+	gameType = Zeus;			// https://community.bistudio.com/wiki/Multiplayer_Game_Types
 	minPlayers = 1;				// Minimum amount of players needed for the mission
-	maxPlayers = 16;			// Maximum amount of players the mission supports
+	maxPlayers = 152;			// Maximum amount of players the mission supports
 };
 
 //-------------------- Template Defines
