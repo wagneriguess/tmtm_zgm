@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=76;
+		nextID=84;
 	};
 	class Camera
 	{
-		pos[]={8681.54,107.28705,25211.736};
-		dir[]={-0.58391982,-0.55410397,-0.59346575};
-		up[]={-0.38878936,0.83229423,-0.39514977};
-		aside[]={-0.71288556,2.9802322e-008,0.70141649};
+		pos[]={8659.6709,87.047165,25214.996};
+		dir[]={-0.76773727,-0.38429856,-0.51297539};
+		up[]={-0.31980801,0.92303956,-0.21369307};
+		aside[]={-0.55562431,-2.3338362e-006,0.83155978};
 	};
 };
 binarizationWanted=0;
@@ -54,7 +54,6 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="$STR_BRIEFINGNAME_ALTIS";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
@@ -78,7 +77,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			dataType="Group";
@@ -4484,6 +4483,36 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8649.708,82.268333,25205.662};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=83;
+					type="B_soldier_M_F";
+					atlOffset=-7.6293945e-005;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=82;
+			atlOffset=-7.6293945e-005;
 		};
 	};
 };
