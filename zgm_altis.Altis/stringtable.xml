@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="SXP">
+	<Package name="Zeus Game Master">
+		<Container name="Unit Descriptions">
+			<Key ID="str_unit_commander">
+				<Original>Commander@Command</Original>
+			</Key>
+			<Key ID="str_unit_command_medic">
+				<Original>Command Medic@Command</Original>
+			</Key>
+			<Key ID="str_unit_alpha_sl">
+				<Original>Squad Leader@Alpha</Original>
+			</Key>
+			<Key ID="str_unit_bravo_sl">
+				<Original>Squad Leader@Bravo</Original>
+			</Key>
+			<Key ID="str_unit_charlie_sl">
+				<Original>Squad Leader@Charlie</Original>
+			</Key>
+			<Key ID="str_unit_delta_sl">
+				<Original>Squad Leader@Delta</Original>
+			</Key>
+			<Key ID="str_unit_cls">
+				<Original>Combat Life Saver</Original>
+			</Key>
+			<Key ID="str_unit_tl">
+				<Original>Team Leader</Original>
+			</Key>
+			<Key ID="str_unit_ar">
+				<Original>Autorifleman</Original>
+			</Key>
+			<Key ID="str_unit_mark">
+				<Original>Marksman</Original>
+			</Key>
+			<Key ID="str_unit_lat">
+				<Original>Rifleman (AT)</Original>
+			</Key>
+			<Key ID="str_unit_rifle">
+				<Original>Rifleman</Original>
+			</Key>
+			<Key ID="str_unit_ammo">
+				<Original>Ammo Bearer</Original>
+			</Key>
+		</Container>
+		<Container name="Groups">
+			<Key id="str_group_command">
+				<Original>Command</Original>
+			</Key>
+			<Key id="str_group_alpha">
+				<Original>Alpha</Original>
+			</Key>
+			<Key id="str_group_bravo">
+				<Original>Bravo</Original>
+			</Key>
+			<Key id="str_group_charlie">
+				<Original>Charlie</Original>
+			</Key>
+			<Key id="str_group_delta">
+				<Original>Delta</Original>
+			</Key>
+		</Container>
+	</Package>
+</Project>
