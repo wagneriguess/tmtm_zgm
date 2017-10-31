@@ -15,7 +15,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "TFAR_rt1523g_big_bwmod";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemcTab", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemcTab", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_CableTie", 2}, {"11Rnd_45ACP_Mag", 2}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 3}, {"SmokeShell", 3}, {"SmokeShellRed", 3}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 3}}; // Items to place in backpack. Includes weapon magazines
@@ -45,7 +45,7 @@ class loadouts
 		vestClass = "V_PlateCarrier2_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemcTab", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemcTab", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_CableTie", 2}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"30Rnd_65x39_caseless_mag", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 5}, {"ACE_EntrenchingTool", 1}, {"SmokeShell", 5}}; // Items to place in backpack. Includes weapon magazines
@@ -74,7 +74,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "TFAR_rt1523g_big_bwmod";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"30Rnd_9x21_Mag", 2}, {"HandGrenade", 2}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"ACE_CableTie", 2}, {"AUR_Rope_Item", 1}, {"ItemcTabHCam", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 5}, {"SmokeShellRed", 5}, {"SmokeShell", 5}, {"B_IR_Grenade", 2}, {"ACE_Chemlight_IR", 2}}; // Items to place in backpack. Includes weapon magazines
@@ -104,7 +104,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"30Rnd_9x21_Mag", 2}, {"ACE_EntrenchingTool", 1}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"30Rnd_65x39_caseless_mag", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 4}, {"SmokeShell", 6}}; // Items to place in backpack. Includes weapon magazines
@@ -134,7 +134,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 1}, {"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"1Rnd_HE_Grenade_shell", 8}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"SmokeShell", 6}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
@@ -164,7 +164,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"SmokeShell", 4}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"100Rnd_65x39_caseless_mag", 3}, {"100Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
@@ -194,7 +194,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"ACE_RangeCard", 1}, {"ItemcTabHCam", 1}, {"ACE_Kestrel4500", 1}, {"SmokeShell", 3}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"16Rnd_9x21_Mag", 1}, {"30Rnd_65x39_caseless_mag_Tracer", 3}, {"HandGrenade", 2}, {"SmokeShell", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
@@ -213,9 +213,9 @@ class loadouts
 	{
 		displayName = "Light Antitank"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "launch_NLAW_F", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
-		secondaryWeaponItems[] = {"launch_NLAW_F", "NLAW_F"}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		secondaryWeaponItems[] = {"_i"}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
 		
 		uniformClass = "U_B_CombatUniform_mcam";
@@ -224,10 +224,10 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 1}, {"SmokeShell", 3}}; // Items to place in uniform. Includes weapon magazines
-		vestItems[] = {{"ItemcTabHCam", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"ACE_EntrenchingTool", 1}, , {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}, {"SmokeShell", 2}}; // Items to place in vest. Includes weapon magazines
-		backpackItems[] = {{"NLAW_F", 2}}; // Items to place in backpack. Includes weapon magazines
+		vestItems[] = {{"ItemcTabHCam", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}, {"SmokeShell", 2}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {{"_i", 2}}; // Items to place in backpack. Includes weapon magazines
 		
 		basicMedUniform[] = {{"ACE_fieldDressing", 10}, {"ACE_morphine", 5}, {"ACE_epinephrine", 5}}; // Items to be placed in the uniform only when basic medical is being used
 		basicMedVest[] = {}; // Items to be placed in the vest only when basic medical is being used
@@ -254,9 +254,9 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 2}, {"SmokeShell", 1}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
-		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 7}, {"SmokeShell", 5}, , {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
+		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 7}, {"SmokeShell", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
 		
 		basicMedUniform[] = {{"ACE_fieldDressing", 10}, {"ACE_morphine", 5}, {"ACE_epinephrine", 5}}; // Items to be placed in the uniform only when basic medical is being used
@@ -284,7 +284,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 2}, {"SmokeShell", 1}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 7}, {"SmokeShell", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"100Rnd_65x39_caseless_mag", 2}, {"30Rnd_65x39_caseless_mag", 15}, {"NLAW_F", 1}}; // Items to place in backpack. Includes weapon magazines
@@ -314,7 +314,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "TFAR_rt1523g_big_bwmod";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 3}, {"ACE_RangeCard", 1}, {"ItemcTabHCam", 1}, {"optic_Nightstalker", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"7Rnd_408_Mag", 10}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShell", 3}}; // Items to place in backpack. Includes weapon magazines
@@ -344,7 +344,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 2}, {"ACE_RangeCard", 1}, {"ItemcTabHCam", 1}, {"ACE_Kestrel4500", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"30Rnd_65x39_caseless_mag", 4}, {"30Rnd_65x39_caseless_mag_Tracer", 4}, {"B_IR_Grenade", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"ACE_SpottingScope", 1}, {"ACE_Tripod", 1}, {"ACE_EntrenchingTool", 1}, {"SmokeShell", 4}, {"SmokeShellRed", 2}, {"SmokeShellGreen", 2}, {"7Rnd_408_Mag", 11}}; // Items to place in backpack. Includes weapon magazines
@@ -374,7 +374,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "TFAR_rt1523g_big_bwmod";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 2}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"30Rnd_65x39_caseless_mag", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"SmokeShell", 6}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"ToolKit", 1}}; // Items to place in backpack. Includes weapon magazines
@@ -404,7 +404,7 @@ class loadouts
 		vestClass = "V_PlateCarrier1_rgr";
 		backpackClass = "B_Kitbag_rgr";
 		
-		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 2}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"30Rnd_65x39_caseless_mag", 5}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"SmokeShell", 6}, {"SmokeShellGreen", 2}, {"SmokeShellRed", 2}, {"HandGrenade", 2}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"ToolKit", 1}}; // Items to place in backpack. Includes weapon magazines
@@ -418,3 +418,4 @@ class loadouts
 		advMedBackpack[] = {}; // Items to be placed in the backpack only when advanced medical is being used
 		
 	};
+};
