@@ -118,3 +118,63 @@ class loadouts
 		advMedBackpack[] = {}; // Items to be placed in the backpack only when advanced medical is being used
 		
 	};
+	
+		class B_Soldier_TL_F
+	{
+		displayName = "Team Leader"; // Currently unused, basically just a human-readable name for the loadout
+		
+		weapons[] = {"arifle_MX_GL_Black_F", "", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag", "3Rnd_HE_Grenade_shell"}; // Primary weapon items. Includes magazine you want loaded initially
+		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
+		
+		uniformClass = "U_B_CombatUniform_mcam";
+		headgearClass = "H_HelmetSpecB";
+		facewearClass = "";
+		vestClass = "V_PlateCarrier1_rgr";
+		backpackClass = "";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		uniformItems[] = {{"16Rnd_9x21_Mag", 1}, {"ItemcTabHCam", 1}, {"ACE_EntrenchingTool", 1}}; // Items to place in uniform. Includes weapon magazines
+		vestItems[] = {{"1Rnd_HE_Grenade_shell", 8}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"SmokeShell", 6}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
+		
+		basicMedUniform[] = {{"ACE_fieldDressing", 10}, {"ACE_morphine", 5}, {"ACE_epinephrine", 5}}; // Items to be placed in the uniform only when basic medical is being used
+		basicMedVest[] = {}; // Items to be placed in the vest only when basic medical is being used
+		basicMedBackpack[] = {}; // Items to be placed in the backpack only when basic medical is being used
+		
+		advMedUniform[] = {}; // Items to be placed in the uniform only when advanced medical is being used
+		advMedVest[] = {}; // Items to be placed in the vest only when advanced medical is being used
+		advMedBackpack[] = {}; // Items to be placed in the backpack only when advanced medical is being used
+		
+	};
+	
+			class B_Soldier_AR_F
+	{
+		displayName = "Auto Rifleman"; // Currently unused, basically just a human-readable name for the loadout
+		
+		weapons[] = {"arifle_MX_SW_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "bipod_01_F_blk", "100Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
+		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
+		
+		uniformClass = "U_B_CombatUniform_mcam";
+		headgearClass = "H_HelmetSpecB";
+		facewearClass = "";
+		vestClass = "V_PlateCarrier1_rgr";
+		backpackClass = "";
+		
+		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
+		uniformItems[] = {{"SmokeShell", 4}, {"ItemcTabHCam", 1}}; // Items to place in uniform. Includes weapon magazines
+		vestItems[] = {{"100Rnd_65x39_caseless_mag", 3}, {"100Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 1}}; // Items to place in vest. Includes weapon magazines
+		backpackItems[] = {}; // Items to place in backpack. Includes weapon magazines
+		
+		basicMedUniform[] = {{"ACE_fieldDressing", 10}, {"ACE_morphine", 5}, {"ACE_epinephrine", 5}}; // Items to be placed in the uniform only when basic medical is being used
+		basicMedVest[] = {}; // Items to be placed in the vest only when basic medical is being used
+		basicMedBackpack[] = {}; // Items to be placed in the backpack only when basic medical is being used
+		
+		advMedUniform[] = {}; // Items to be placed in the uniform only when advanced medical is being used
+		advMedVest[] = {}; // Items to be placed in the vest only when advanced medical is being used
+		advMedBackpack[] = {}; // Items to be placed in the backpack only when advanced medical is being used
+		
+	};
