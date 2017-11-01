@@ -76,7 +76,7 @@ class loadouts
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"30Rnd_9x21_Mag", 2}, {"HandGrenade", 2}}; // Items to place in uniform. Includes weapon magazines
-		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"ACE_CableTie", 2}, {"ItemcTabHCam", 1}}; // Items to place in vest. Includes weapon magazines
+		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"ACE_CableTie", 2}, {"AUR_Rope_Item", 1}, {"ItemcTabHCam", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 5}, {"SmokeShellRed", 5}, {"SmokeShell", 5}, {"B_IR_Grenade", 2}, {"ACE_Chemlight_IR", 2}}; // Items to place in backpack. Includes weapon magazines
 		
 		basicMedUniform[] = {}; // Items to be placed in the uniform only when basic medical is being used
@@ -93,7 +93,7 @@ class loadouts
 	{
 		displayName = "Medic"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
@@ -213,9 +213,9 @@ class loadouts
 	{
 		displayName = "Light Antitank"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "launch_NLAW_F", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "launch_NLAW_F", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
-		secondaryWeaponItems[] = {"_i"}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
+		secondaryWeaponItems[] = {"NLAW_F"}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
 		
 		uniformClass = "U_B_CombatUniform_mcam";
@@ -227,7 +227,7 @@ class loadouts
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemMicroDAGR", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"16Rnd_9x21_Mag", 1}, {"SmokeShell", 3}}; // Items to place in uniform. Includes weapon magazines
 		vestItems[] = {{"ItemcTabHCam", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"HandGrenade", 2}, {"SmokeShell", 2}}; // Items to place in vest. Includes weapon magazines
-		backpackItems[] = {{"_i", 2}}; // Items to place in backpack. Includes weapon magazines
+		backpackItems[] = {{"NLAW_F", 2}}; // Items to place in backpack. Includes weapon magazines
 		
 		basicMedUniform[] = {{"ACE_fieldDressing", 10}, {"ACE_morphine", 5}, {"ACE_epinephrine", 5}}; // Items to be placed in the uniform only when basic medical is being used
 		basicMedVest[] = {}; // Items to be placed in the vest only when basic medical is being used
@@ -243,7 +243,7 @@ class loadouts
 	{
 		displayName = "Rifleman"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
@@ -273,7 +273,7 @@ class loadouts
 	{
 		displayName = "Ammo Bearer"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
@@ -393,7 +393,7 @@ class loadouts
 	{
 		displayName = "Crew Member"; // Currently unused, basically just a human-readable name for the loadout
 		
-		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", ""}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
+		weapons[] = {"arifle_MX_Black_F", "", "hgun_P07_F", "Binocular"}; // Weapons for the unit, fills the primary weapon, launcher, pistol, and binocular slots
 		primaryWeaponItems[] = {"optic_Hamr", "acc_pointer_IR", "30Rnd_65x39_caseless_mag"}; // Primary weapon items. Includes magazine you want loaded initially
 		secondaryWeaponItems[] = {""}; // Secondary weapon items (launchers). Includes magazine you want loaded initially.
 		handgunItems[] = {"30Rnd_9x21_Mag"}; // Handgun items. Includes magazine you want loaded initially.
