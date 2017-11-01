@@ -76,7 +76,7 @@ class loadouts
 		
 		linkedItems[] = {"ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ItemAndroid", "NVGoggles_INDEP"}; // Linked items for the unit, use for map, compass, radio, watch, gps, and NVGs
 		uniformItems[] = {{"30Rnd_9x21_Mag", 2}, {"HandGrenade", 2}}; // Items to place in uniform. Includes weapon magazines
-		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"ACE_CableTie", 2}, {"AUR_Rope_Item", 1}, {"ItemcTabHCam", 1}}; // Items to place in vest. Includes weapon magazines
+		vestItems[] = {{"ACE_EntrenchingTool", 1}, {"30Rnd_65x39_caseless_mag", 6}, {"30Rnd_65x39_caseless_mag_Tracer", 2}, {"ACE_CableTie", 2}, {"ItemcTabHCam", 1}}; // Items to place in vest. Includes weapon magazines
 		backpackItems[] = {{"SmokeShellGreen", 5}, {"SmokeShellRed", 5}, {"SmokeShell", 5}, {"B_IR_Grenade", 2}, {"ACE_Chemlight_IR", 2}}; // Items to place in backpack. Includes weapon magazines
 		
 		basicMedUniform[] = {}; // Items to be placed in the uniform only when basic medical is being used
